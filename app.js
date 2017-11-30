@@ -17,7 +17,7 @@ var commentRoutes = require('./routes/comments'),
     indexRoutes = require('./routes/index');
 // 
 
-mongoose.connect("mongodb://localhost/yelp_camp_v7", {useMongoClient: true});
+mongoose.connect("mongodb://heroku_th2lfc3b:e7onr9s2pul4h9ked0e65crpm2@ds125896.mlab.com:25896/heroku_th2lfc3b", {useMongoClient: true});
 
 app.set("view engine", "ejs");
 
