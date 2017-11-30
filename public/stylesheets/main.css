@@ -1,0 +1,12 @@
+.thumbnail{
+    padding: 0;
+}
+
+.delete-form {
+    display: inline;
+}
+
+.img-responsive {
+    max-height: 300px;
+    height: auto;
+}
