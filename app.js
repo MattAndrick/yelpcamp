@@ -49,6 +49,6 @@ app.use('/', indexRoutes);
 app.use('/campgrounds/:id/comments', commentRoutes);
 app.use('/campgrounds', campgroundRoutes);
 
-app.listen(process.env.PORT, function(){
+app.listen(8000, function(){
     console.log("serving yelpcamp v7 on port 8000");
 });
